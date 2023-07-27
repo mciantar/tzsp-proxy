@@ -6,5 +6,8 @@ There are situation where it is not possible to have sensor (TAP) connected to a
 ## Solution
 This scripts resolves the problem but acting as a listener for TZSP, decapsulates them, and forwards them to the listening promiscious interface.
 
+## Use Case
+This script can be used with applications like Zeek, Surricata, Snort, or other platforms that use such tools like Security Onion.
+
 ## Warranty
 This script is provided as is without warranty. In some cases, the script can crash and I have not investigated this further, so I have a watchdog script to monitor and restart it accordingly.
