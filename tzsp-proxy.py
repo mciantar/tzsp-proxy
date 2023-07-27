@@ -8,6 +8,9 @@
 # 2021-04-02
 #
 
+# Script assumes that the TZSP Packets will be received on eth0. Replace on line 48 if that is different for you.
+# Script assumes that the promiscious interface is bond0. Replace this  on line 40 with the interface where you sensor is listening. 
+
 import _thread
 import fcntl
 import socket
